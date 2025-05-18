@@ -19,4 +19,4 @@ To change the framerate, tinker with the Dockerfile, good luck!
 ## Credits
 * [Docker](https://www.docker.com/) for containerization.  
 * [Firefox](https://github.com/mozilla) for being used as a browser.  
-* [TigerVNC]((https://github.com/TigerVNC/tigervnc)) for being used as a VNC.  
+* [TigerVNC](https://github.com/TigerVNC/tigervnc) for being used as a VNC.  
