@@ -1,6 +1,6 @@
 # s-firefox-vnc
 A docker image to run firefox in a docker container and display it graphically via VNC.  
-non-VNC version can be found [here](https://github.com/debugkei/s-firefox).  
+non-VNC version can be found [here](https://github.com/ivkei/s-firefox).  
 
 ## Build
 ```sh
