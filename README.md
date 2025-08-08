@@ -9,7 +9,7 @@ docker build -t firefox-vnc . # or replace . with directory with the Dockerfile
 
 ## Run
 ```sh
-docker -it -p 5900:5900 --rm firefox-vnc
+docker run -it -p 5900:5900 --rm firefox-vnc
 ./vncstartup.sh
 ```
 Then open [TigerVNC Viewer](https://github.com/TigerVNC/tigervnc) and connect to localhost:5900.  
