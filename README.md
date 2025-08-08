@@ -4,12 +4,12 @@ non-VNC version can be found [here](https://github.com/ivkei/s-firefox).
 
 ## Build
 ```sh
-docker build -t firefox-vnc .
+docker build -t firefox-vnc . # or replace . with directory with the Dockerfile
 ```
 
 ## Run
 ```sh
-docker -it -p 5900:5900 --rm firefox /bin/bash
+docker -it -p 5900:5900 --rm firefox-vnc
 ./vncstartup.sh
 ```
 Then open [TigerVNC Viewer](https://github.com/TigerVNC/tigervnc) and connect to localhost:5900.  
